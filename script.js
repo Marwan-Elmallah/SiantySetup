@@ -1297,8 +1297,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: start;
     box-shadow: 0 6px 20px rgba(44, 90, 160, 0.15);
 }
 
@@ -1958,7 +1958,7 @@ tr:last-child td {
         <div class="section">
             <div class="section-title">4. SYSTEM WORKFLOW</div>
             <div class="workflow-box">
-                ${data.workflowDescription || 'No workflow description provided.'}
+                ${convertToOrderedList(data.workflowDescription || 'No workflow description provided.')}
             </div>
             
             ${data.specialNotes && data.specialNotes !== 'No special notes.' ? `
@@ -1995,7 +1995,7 @@ tr:last-child td {
                 </div>
                 
                 <div class="signature-box">
-                    <div class="signature-title">CUSTOMER APPROVAL</div>
+                    <div class="signature-title">ON-SITE VISIT APPROVAL</div>
                     <div style="margin-bottom: 10px;">
                         <div class="info-label">Approver Name:</div>
                         <div class="info-value">${data.approverName || 'Not specified'}</div>
@@ -2311,4 +2311,45 @@ function generateDocument() {
     
     // Display or save the document
     displayGeneratedDocument(htmlContent);
+}
+
+function convertToOrderedList(text) {
+    if (!text || text.trim() === '') {
+        return '<div class="empty-message"><em>No workflow description provided.</em></div>';
+    }
+    
+    // Split by new lines
+    const lines = text.split('\n');
+    let items = [];
+    
+    // Process each line
+    lines.forEach(line => {
+        // Remove leading numbers (1., 2., 1), 2), etc.) and trim
+        const cleanLine = line
+            .replace(/^\s*\d+[\.\)]\s*/, '')  // Remove "1.", "2)", etc.
+            .replace(/^\s*[-*•]\s*/, '')      // Remove bullets
+            .replace(/^\s+|\s+$/g, '');       // Trim whitespace
+        
+        if (cleanLine) {
+            items.push(cleanLine);
+        }
+    });
+    
+    // If no valid items found, return original text
+    if (items.length === 0) {
+        return `<div style="white-space: pre-line;">${escapeHtml(text)}</div>`;
+    }
+    
+    // Generate ordered list HTML
+    const listItems = items.map(item => 
+        `<li>${escapeHtml(item)}</li>`
+    ).join('\n');
+    
+    return `<ol class="workflow-list">\n${listItems}\n</ol>`;
+}
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }

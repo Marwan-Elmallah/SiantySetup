@@ -190,22 +190,6 @@
                         <button class="btn" onclick="clearRoleForm()">Clear Form</button>
                     </div>
                     
-                    <div class="template-roles">
-                        <h4>Quick Role Templates</h4>
-                        <p>Create roles based on common patterns:</p>
-                        <div class="role-templates">
-                            <button class="template-btn" onclick="createTemplateRole('admin')">Full Administrator</button>
-                            <button class="template-btn" onclick="createTemplateRole('manager')">Department Manager</button>
-                            <button class="template-btn" onclick="createTemplateRole('technician')">Service Technician</button>
-                            <button class="template-btn" onclick="createTemplateRole('accountant')">Finance Accountant</button>
-                            <button class="template-btn" onclick="createTemplateRole('supervisor')">Team Supervisor</button>
-                            <button class="template-btn" onclick="createTemplateRole('viewer')">Read-Only Viewer</button>
-                            <button class="template-btn" onclick="createTemplateRole('operator')">Data Entry Operator</button>
-                            <button class="template-btn" onclick="createTemplateRole('auditor')">System Auditor</button>
-                        </div>
-                    </div>
-                    
-                    <h3 style="margin-top: 20px;">Custom Roles Created</h3>
                     <div id="roles-container">
                         <!-- Custom roles will be dynamically added here -->
                     </div>
@@ -219,17 +203,7 @@
                         <strong>Selected Role:</strong> <span id="current-role-name">None</span>
                         <span id="current-role-description" style="display: block; font-size: 12px; color: #666; margin-top: 3px;"></span>
                     </div>
-                    
-                    <div class="bulk-assign-section">
-                        <strong>Quick Assignment Options for Selected Role:</strong>
-                        <div class="role-buttons">
-                            <button class="btn btn-success" onclick="assignAllPrivilegesToRole()">Assign All Linked</button>
-                            <button class="btn" onclick="assignViewOnlyPrivileges()">View Only</button>
-                            <button class="btn" onclick="assignCreateUpdatePrivileges()">Create/Update Only</button>
-                            <button class="btn" onclick="assignNoDeletePrivileges()">Exclude Delete/Archive</button>
-                            <button class="btn btn-danger" onclick="clearRolePrivileges()">Clear Role</button>
-                        </div>
-                    </div>
+                
                     
                     <div id="available-privileges" class="available-privileges">
                         <div class="empty-state">
@@ -291,7 +265,7 @@
                 </div>
                 
                 <div class="signature-box">
-                    <h3>Customer Approval</h3>
+                    <h3>Onsite Visit Approval</h3>
                     <div class="form-field">
                         <label>Name:</label>
                         <input type="text" id="approver-name" placeholder="Enter customer approver name">
