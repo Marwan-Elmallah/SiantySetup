@@ -972,19 +972,25 @@ function saveAsHTML() {
     
     // Gather user data
     const users = [];
-    document.querySelectorAll('#users-table-body tr').forEach(row => {
-        const inputs = row.querySelectorAll('input, select');
-        if (inputs.length >= 5) {
-            const name = inputs[0].value || 'Not specified';
-            const email = inputs[1].value || 'Not specified';
-            const role = inputs[2].value || 'Not assigned';
-            const department = inputs[3].value || 'Not specified';
-            
-            if (name !== 'Not specified') {
-                users.push({ name, email, role, department });
+        document.querySelectorAll('#users-table-body tr').forEach(row => {
+            const inputs = row.querySelectorAll('input, select');
+            if (inputs.length >= 4) { // Changed from 5 to 4
+                const name = inputs[0].value || 'Not specified';
+                const email = inputs[1].value || 'Not specified';
+                const role = inputs[2].value || 'Not assigned';
+                const department = inputs[3].value || 'Not specified';
+                
+                if (name !== 'Not specified') {
+                    users.push({ 
+                        name, 
+                        username: email.split('@')[0] || name.toLowerCase().replace(/\s+/g, '.'), // Generate username from email or name
+                        email, 
+                        role, 
+                        department 
+                    });
+                }
             }
-        }
-    });
+        });
     
     // Generate the HTML content
     const htmlContent = generateCustomerHTML({
@@ -1558,6 +1564,7 @@ function generateCustomerHTML(data) {
                     <div class="info-label">Number of Users:</div>
                     <div class="info-value">
                         ${data.numberOfUsers || 'Not specified'}
+                        <span class="user-count-badge">${getUserCountText(data)}</span>
                     </div>
                 </div>
             </div>
@@ -1574,6 +1581,7 @@ function generateCustomerHTML(data) {
             <div class="section-title">2. USER ACCOUNTS ${getUserCountBadge(data)}</div>
             ${data.users && data.users.length > 0 ? `
                 <table>
+                    // In the generateCustomerHTML() function, in the users table section:
                     <thead>
                         <tr>
                             <th>Full Name</th>
