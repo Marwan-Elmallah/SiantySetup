@@ -1557,7 +1557,7 @@ function generateCustomerHTML(data) {
                 <div class="info-group">
                     <div class="info-label">Number of Users:</div>
                     <div class="info-value">
-                        <span class="user-count-badge">${getUserCountText(data)}</span>
+                        ${data.numberOfUsers || 'Not specified'}
                     </div>
                 </div>
             </div>
