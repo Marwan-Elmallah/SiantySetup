@@ -1896,7 +1896,6 @@ tr:last-child td {
             <div class="section-title">2. USER ACCOUNTS ${getUserCountBadge(data)}</div>
             ${data.users && data.users.length > 0 ? `
                 <table>
-                    // In the generateCustomerHTML() function, in the users table section:
                     <thead>
                         <tr>
                             <th>Full Name</th>
@@ -2019,7 +2018,7 @@ tr:last-child td {
         <div class="footer">
             <p>Document generated on ${generatedDate} at ${generatedTime}</p>
             <p>This document contains confidential information for ${data.customerName || data.workshopName || 'Customer'} only.</p>
-            <p>For questions or modifications, please contact Tech Support Inc.</p>
+            <p>For questions or modifications, please contact Technical Support @ support@bayanatss.com.</p>
         </div>
     </div>
     
