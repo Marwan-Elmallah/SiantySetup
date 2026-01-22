@@ -1,0 +1,4890 @@
+[
+            {
+                "id": 100,
+                "active": true,
+                "erole": "ROLE_ACCOUNT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 101,
+                "active": true,
+                "erole": "ROLE_ACCOUNT_CREATE",
+                "parentId": 100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 102,
+                "active": true,
+                "erole": "ROLE_ACCOUNT_UPDATE",
+                "parentId": 100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 103,
+                "active": true,
+                "erole": "ROLE_ACCOUNT_ARCHIVE",
+                "parentId": 100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 104,
+                "active": true,
+                "erole": "ROLE_ACCOUNT_ACTIVE",
+                "parentId": 100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 200,
+                "active": true,
+                "erole": "ROLE_BANKACCOUNT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 201,
+                "active": true,
+                "erole": "ROLE_BANKACCOUNT_CREATE",
+                "parentId": 200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 202,
+                "active": true,
+                "erole": "ROLE_BANKACCOUNT_UPDATE",
+                "parentId": 200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 203,
+                "active": true,
+                "erole": "ROLE_BANKACCOUNT_ARCHIVE",
+                "parentId": 200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 204,
+                "active": true,
+                "erole": "ROLE_BANKACCOUNT_ACTIVE",
+                "parentId": 200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 300,
+                "active": true,
+                "erole": "ROLE_BANKDEPOSIT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 301,
+                "active": true,
+                "erole": "ROLE_BANKDEPOSIT_CREATE",
+                "parentId": 300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 302,
+                "active": true,
+                "erole": "ROLE_BANKDEPOSIT_UPDATE",
+                "parentId": 300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 303,
+                "active": true,
+                "erole": "ROLE_BANKDEPOSIT_ARCHIVE",
+                "parentId": 300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 304,
+                "active": true,
+                "erole": "ROLE_BANKDEPOSIT_ACTIVE",
+                "parentId": 300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 400,
+                "active": true,
+                "erole": "ROLE_BAY_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 401,
+                "active": true,
+                "erole": "ROLE_BAY_CREATE",
+                "parentId": 400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 402,
+                "active": true,
+                "erole": "ROLE_BAY_UPDATE",
+                "parentId": 400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 403,
+                "active": true,
+                "erole": "ROLE_BAY_ARCHIVE",
+                "parentId": 400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 404,
+                "active": true,
+                "erole": "ROLE_BAY_ACTIVE",
+                "parentId": 400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 500,
+                "active": true,
+                "erole": "ROLE_BUSINESS_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 501,
+                "active": true,
+                "erole": "ROLE_BUSINESS_CREATE",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 502,
+                "active": true,
+                "erole": "ROLE_BUSINESS_UPDATE",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 503,
+                "active": true,
+                "erole": "ROLE_BUSINESS_ARCHIVE",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 504,
+                "active": true,
+                "erole": "ROLE_BUSINESS_ACTIVE",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 505,
+                "active": true,
+                "erole": "ROLE_BUSINESS_MEDIA_UPLOAD",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 506,
+                "active": true,
+                "erole": "ROLE_BUSINESS_TEMPLATE_ASSIGN",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 507,
+                "active": true,
+                "erole": "ROLE_BUSINESS_TEMPLATE_UNASSIGN",
+                "parentId": 500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 600,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 601,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_CREATE",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 602,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_UPDATE",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 603,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_ARCHIVE",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 604,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_ACTIVE",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 605,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_STATION_ASSIGN",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 606,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_STATION_UNASSIGN",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 607,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_BUSINESS_ASSIGN",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 608,
+                "active": true,
+                "erole": "ROLE_BUSINESSGROUP_BUSINESS_UNASSIGN",
+                "parentId": 600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 700,
+                "active": true,
+                "erole": "ROLE_CHECKLIST_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 701,
+                "active": true,
+                "erole": "ROLE_CHECKLIST_CREATE",
+                "parentId": 700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 702,
+                "active": true,
+                "erole": "ROLE_CHECKLIST_UPDATE",
+                "parentId": 700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 703,
+                "active": true,
+                "erole": "ROLE_CHECKLIST_ARCHIVE",
+                "parentId": 700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 704,
+                "active": true,
+                "erole": "ROLE_CHECKLIST_ACTIVE",
+                "parentId": 700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 800,
+                "active": true,
+                "erole": "ROLE_CHECKLISTITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 801,
+                "active": true,
+                "erole": "ROLE_CHECKLISTITEM_CREATE",
+                "parentId": 800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 802,
+                "active": true,
+                "erole": "ROLE_CHECKLISTITEM_UPDATE",
+                "parentId": 800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 803,
+                "active": true,
+                "erole": "ROLE_CHECKLISTITEM_ARCHIVE",
+                "parentId": 800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 804,
+                "active": true,
+                "erole": "ROLE_CHECKLISTITEM_ACTIVE",
+                "parentId": 800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 900,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 901,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_CREATE",
+                "parentId": 900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 902,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_UPDATE",
+                "parentId": 900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 903,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_ARCHIVE",
+                "parentId": 900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 904,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_ACTIVE",
+                "parentId": 900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1000,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORMITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1001,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORMITEM_CREATE",
+                "parentId": 1000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1002,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORMITEM_UPDATE",
+                "parentId": 1000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1003,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORMITEM_ARCHIVE",
+                "parentId": 1000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1004,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORMITEM_ACTIVE",
+                "parentId": 1000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1100,
+                "active": true,
+                "erole": "ROLE_INSURANCECOMPANY_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1101,
+                "active": true,
+                "erole": "ROLE_INSURANCECOMPANY_CREATE",
+                "parentId": 1100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1102,
+                "active": true,
+                "erole": "ROLE_INSURANCECOMPANY_UPDATE",
+                "parentId": 1100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1103,
+                "active": true,
+                "erole": "ROLE_INSURANCECOMPANY_ARCHIVE",
+                "parentId": 1100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1104,
+                "active": true,
+                "erole": "ROLE_INSURANCECOMPANY_ACTIVE",
+                "parentId": 1100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1200,
+                "active": true,
+                "erole": "ROLE_INSURANCEPOLICY_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1201,
+                "active": true,
+                "erole": "ROLE_INSURANCEPOLICY_CREATE",
+                "parentId": 1200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1202,
+                "active": true,
+                "erole": "ROLE_INSURANCEPOLICY_UPDATE",
+                "parentId": 1200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1203,
+                "active": true,
+                "erole": "ROLE_INSURANCEPOLICY_ARCHIVE",
+                "parentId": 1200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1204,
+                "active": true,
+                "erole": "ROLE_INSURANCEPOLICY_ACTIVE",
+                "parentId": 1200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1300,
+                "active": true,
+                "erole": "ROLE_INVOICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1301,
+                "active": true,
+                "erole": "ROLE_INVOICE_CREATE",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1302,
+                "active": true,
+                "erole": "ROLE_INVOICE_UPDATE",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1303,
+                "active": true,
+                "erole": "ROLE_INVOICE_ARCHIVE",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1304,
+                "active": true,
+                "erole": "ROLE_INVOICE_ACTIVE",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1305,
+                "active": true,
+                "erole": "ROLE_INVOICE_PDF",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1306,
+                "active": true,
+                "erole": "ROLE_INVOICE_EXPORT",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1307,
+                "active": true,
+                "erole": "ROLE_PROFORMA_INVOICE_CREATE",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1308,
+                "active": true,
+                "erole": "ROLE_PROFORMA_INVOICE_PDF",
+                "parentId": 1300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1400,
+                "active": true,
+                "erole": "ROLE_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1401,
+                "active": true,
+                "erole": "ROLE_ITEM_CREATE",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1402,
+                "active": true,
+                "erole": "ROLE_ITEM_UPDATE",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1403,
+                "active": true,
+                "erole": "ROLE_ITEM_ARCHIVE",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1404,
+                "active": true,
+                "erole": "ROLE_ITEM_ACTIVE",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1405,
+                "active": true,
+                "erole": "ROLE_ITEM_MODEL_ASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1406,
+                "active": true,
+                "erole": "ROLE_ITEM_MODEL_UNASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1407,
+                "active": true,
+                "erole": "ROLE_ITEM_PRICELIST_ASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1408,
+                "active": true,
+                "erole": "ROLE_ITEM_PRICELIST_UNASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1409,
+                "active": true,
+                "erole": "ROLE_ITEM_PRICELIST_UPDATE",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1410,
+                "active": true,
+                "erole": "ROLE_ITEM_VENDOR_ASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1411,
+                "active": true,
+                "erole": "ROLE_ITEM_VENDOR_UNASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1412,
+                "active": true,
+                "erole": "ROLE_ITEM_UNIT_ASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1413,
+                "active": true,
+                "erole": "ROLE_ITEM_UNIT_UNASSIGN",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1414,
+                "active": true,
+                "erole": "ROLE_ITEM_IMPORT",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1415,
+                "active": true,
+                "erole": "ROLE_ITEM_EXPORT",
+                "parentId": 1400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1500,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1501,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_CREATE",
+                "parentId": 1500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1502,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_UPDATE",
+                "parentId": 1500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1503,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_ARCHIVE",
+                "parentId": 1500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1504,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_ACTIVE",
+                "parentId": 1500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1505,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_ITEM_ASSIGN",
+                "parentId": 1500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1506,
+                "active": true,
+                "erole": "ROLE_ITEMGROUP_ITEM_UNASSIGN",
+                "parentId": 1500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1600,
+                "active": true,
+                "erole": "ROLE_ITEMCATEGORY_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1601,
+                "active": true,
+                "erole": "ROLE_ITEMCATEGORY_CREATE",
+                "parentId": 1600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1602,
+                "active": true,
+                "erole": "ROLE_ITEMCATEGORY_UPDATE",
+                "parentId": 1600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1603,
+                "active": true,
+                "erole": "ROLE_ITEMCATEGORY_ARCHIVE",
+                "parentId": 1600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1604,
+                "active": true,
+                "erole": "ROLE_ITEMCATEGORY_ACTIVE",
+                "parentId": 1600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1700,
+                "active": true,
+                "erole": "ROLE_MAKE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1701,
+                "active": true,
+                "erole": "ROLE_MAKE_CREATE",
+                "parentId": 1700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1702,
+                "active": true,
+                "erole": "ROLE_MAKE_UPDATE",
+                "parentId": 1700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1703,
+                "active": true,
+                "erole": "ROLE_MAKE_ARCHIVE",
+                "parentId": 1700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1704,
+                "active": true,
+                "erole": "ROLE_MAKE_ACTIVE",
+                "parentId": 1700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1800,
+                "active": true,
+                "erole": "ROLE_MODEL_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1801,
+                "active": true,
+                "erole": "ROLE_MODEL_CREATE",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1802,
+                "active": true,
+                "erole": "ROLE_MODEL_UPDATE",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1803,
+                "active": true,
+                "erole": "ROLE_MODEL_ARCHIVE",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1804,
+                "active": true,
+                "erole": "ROLE_MODEL_ACTIVE",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1805,
+                "active": true,
+                "erole": "ROLE_MODEL_SERVICE_ASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1806,
+                "active": true,
+                "erole": "ROLE_MODEL_SERVICE_UNASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1807,
+                "active": true,
+                "erole": "ROLE_MODEL_PACKAGE_ASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1808,
+                "active": true,
+                "erole": "ROLE_MODEL_PACKAGE_UNASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1809,
+                "active": true,
+                "erole": "ROLE_MODEL_ITEM_ASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1810,
+                "active": true,
+                "erole": "ROLE_MODEL_ITEM_UNASSIGN",
+                "parentId": 1800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1900,
+                "active": true,
+                "erole": "ROLE_MODELENGINE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 1901,
+                "active": true,
+                "erole": "ROLE_MODELENGINE_CREATE",
+                "parentId": 1900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1902,
+                "active": true,
+                "erole": "ROLE_MODELENGINE_UPDATE",
+                "parentId": 1900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1903,
+                "active": true,
+                "erole": "ROLE_MODELENGINE_ARCHIVE",
+                "parentId": 1900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 1904,
+                "active": true,
+                "erole": "ROLE_MODELENGINE_ACTIVE",
+                "parentId": 1900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2000,
+                "active": true,
+                "erole": "ROLE_MANUFACTURER_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2001,
+                "active": true,
+                "erole": "ROLE_MANUFACTURER_CREATE",
+                "parentId": 2000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2002,
+                "active": true,
+                "erole": "ROLE_MANUFACTURER_UPDATE",
+                "parentId": 2000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2003,
+                "active": true,
+                "erole": "ROLE_MANUFACTURER_ARCHIVE",
+                "parentId": 2000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2004,
+                "active": true,
+                "erole": "ROLE_MANUFACTURER_ACTIVE",
+                "parentId": 2000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2100,
+                "active": true,
+                "erole": "ROLE_PACKAGE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2101,
+                "active": true,
+                "erole": "ROLE_PACKAGE_CREATE",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2102,
+                "active": true,
+                "erole": "ROLE_PACKAGE_UPDATE",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2103,
+                "active": true,
+                "erole": "ROLE_PACKAGE_ARCHIVE",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2104,
+                "active": true,
+                "erole": "ROLE_PACKAGE_ACTIVE",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2105,
+                "active": true,
+                "erole": "ROLE_PACKAGE_ITEM_ASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2106,
+                "active": true,
+                "erole": "ROLE_PACKAGE_ITEM_UNASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2107,
+                "active": true,
+                "erole": "ROLE_PACKAGE_MODEL_ASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2108,
+                "active": true,
+                "erole": "ROLE_PACKAGE_MODEL_UNASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2109,
+                "active": true,
+                "erole": "ROLE_PACKAGE_PRICELIST_ASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2110,
+                "active": true,
+                "erole": "ROLE_PACKAGE_PRICELIST_UNASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2111,
+                "active": true,
+                "erole": "ROLE_PACKAGE_PRICELIST_UPDATE",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2112,
+                "active": true,
+                "erole": "ROLE_PACKAGE_SERVICE_ASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2113,
+                "active": true,
+                "erole": "ROLE_PACKAGE_SERVICE_UNASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2114,
+                "active": true,
+                "erole": "ROLE_PACKAGE_STATION_ASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2115,
+                "active": true,
+                "erole": "ROLE_PACKAGE_STATION_UNASSIGN",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2116,
+                "active": true,
+                "erole": "ROLE_PACKAGE_IMPORT",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2117,
+                "active": true,
+                "erole": "ROLE_PACKAGE_EXPORT",
+                "parentId": 2100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2200,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2201,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_CREATE",
+                "parentId": 2200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2202,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_UPDATE",
+                "parentId": 2200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2203,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_ARCHIVE",
+                "parentId": 2200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2204,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_ACTIVE",
+                "parentId": 2200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2205,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_PACKAGE_ASSIGN",
+                "parentId": 2200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2206,
+                "active": true,
+                "erole": "ROLE_PACKAGEGROUP_PACKAGE_UNASSIGN",
+                "parentId": 2200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2300,
+                "active": true,
+                "erole": "ROLE_PAYMENT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2301,
+                "active": true,
+                "erole": "ROLE_PAYMENT_CREATE",
+                "parentId": 2300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2302,
+                "active": true,
+                "erole": "ROLE_PAYMENT_UPDATE",
+                "parentId": 2300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2303,
+                "active": true,
+                "erole": "ROLE_PAYMENT_ARCHIVE",
+                "parentId": 2300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2304,
+                "active": true,
+                "erole": "ROLE_PAYMENT_ACTIVE",
+                "parentId": 2300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2400,
+                "active": true,
+                "erole": "ROLE_PRICELIST_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2401,
+                "active": true,
+                "erole": "ROLE_PRICELIST_CREATE",
+                "parentId": 2400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2402,
+                "active": true,
+                "erole": "ROLE_PRICELIST_UPDATE",
+                "parentId": 2400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2403,
+                "active": true,
+                "erole": "ROLE_PRICELIST_ARCHIVE",
+                "parentId": 2400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2404,
+                "active": true,
+                "erole": "ROLE_PRICELIST_ACTIVE",
+                "parentId": 2400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2500,
+                "active": true,
+                "erole": "ROLE_RECOMMENDEDSERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2501,
+                "active": true,
+                "erole": "ROLE_RECOMMENDEDSERVICE_CREATE",
+                "parentId": 2500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2502,
+                "active": true,
+                "erole": "ROLE_RECOMMENDEDSERVICE_UPDATE",
+                "parentId": 2500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2503,
+                "active": true,
+                "erole": "ROLE_RECOMMENDEDSERVICE_ARCHIVE",
+                "parentId": 2500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2504,
+                "active": true,
+                "erole": "ROLE_RECOMMENDEDSERVICE_ACTIVE",
+                "parentId": 2500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2600,
+                "active": true,
+                "erole": "ROLE_REQUEST_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2601,
+                "active": true,
+                "erole": "ROLE_REQUEST_CREATE",
+                "parentId": 2600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2602,
+                "active": true,
+                "erole": "ROLE_REQUEST_UPDATE",
+                "parentId": 2600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2603,
+                "active": true,
+                "erole": "ROLE_REQUEST_ARCHIVE",
+                "parentId": 2600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2604,
+                "active": true,
+                "erole": "ROLE_REQUEST_ACTIVE",
+                "parentId": 2600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2700,
+                "active": true,
+                "erole": "ROLE_REQUESTLOG_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2701,
+                "active": true,
+                "erole": "ROLE_REQUESTLOG_CREATE",
+                "parentId": 2700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2702,
+                "active": true,
+                "erole": "ROLE_REQUESTLOG_UPDATE",
+                "parentId": 2700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2703,
+                "active": true,
+                "erole": "ROLE_REQUESTLOG_ARCHIVE",
+                "parentId": 2700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2704,
+                "active": true,
+                "erole": "ROLE_REQUESTLOG_ACTIVE",
+                "parentId": 2700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2800,
+                "active": true,
+                "erole": "ROLE_ROLE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2801,
+                "active": true,
+                "erole": "ROLE_ROLE_CREATE",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2802,
+                "active": true,
+                "erole": "ROLE_ROLE_UPDATE",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2803,
+                "active": true,
+                "erole": "ROLE_ROLE_ARCHIVE",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2804,
+                "active": true,
+                "erole": "ROLE_ROLE_ACTIVE",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2805,
+                "active": true,
+                "erole": "ROLE_ROLE_PRIVILEGE_ASSIGN",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2806,
+                "active": true,
+                "erole": "ROLE_ROLE_PRIVILEGE_UNASSIGN",
+                "parentId": 2800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 2900,
+                "active": true,
+                "erole": "ROLE_SERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2901,
+                "active": true,
+                "erole": "ROLE_SERVICE_CREATE",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2902,
+                "active": true,
+                "erole": "ROLE_SERVICE_UPDATE",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2903,
+                "active": true,
+                "erole": "ROLE_SERVICE_ARCHIVE",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2904,
+                "active": true,
+                "erole": "ROLE_SERVICE_ACTIVE",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2905,
+                "active": true,
+                "erole": "ROLE_SERVICE_CHECKLIST_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2906,
+                "active": true,
+                "erole": "ROLE_SERVICE_CHECKLIST_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2907,
+                "active": true,
+                "erole": "ROLE_SERVICE_ITEM_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2908,
+                "active": true,
+                "erole": "ROLE_SERVICE_ITEM_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2909,
+                "active": true,
+                "erole": "ROLE_SERVICE_MODEL_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2910,
+                "active": true,
+                "erole": "ROLE_SERVICE_MODEL_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2911,
+                "active": true,
+                "erole": "ROLE_SERVICE_STATION_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2912,
+                "active": true,
+                "erole": "ROLE_SERVICE_STATION_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2913,
+                "active": true,
+                "erole": "ROLE_SERVICE_USER_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2914,
+                "active": true,
+                "erole": "ROLE_SERVICE_USER_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2915,
+                "active": true,
+                "erole": "ROLE_SERVICE_VEHICLETYPE_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2916,
+                "active": true,
+                "erole": "ROLE_SERVICE_VEHICLETYPE_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2917,
+                "active": true,
+                "erole": "ROLE_SERVICE_PRICELIST_ASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2918,
+                "active": true,
+                "erole": "ROLE_SERVICE_PRICELIST_UNASSIGN",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2919,
+                "active": true,
+                "erole": "ROLE_SERVICE_PRICELIST_UPDATE",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2920,
+                "active": true,
+                "erole": "ROLE_SERVICE_IMPORT",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 2921,
+                "active": true,
+                "erole": "ROLE_SERVICE_EXPORT",
+                "parentId": 2900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3000,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3001,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_CREATE",
+                "parentId": 3000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3002,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_UPDATE",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3003,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_ARCHIVE",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3004,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_ACTIVE",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3005,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_SERVICE_ASSIGN",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3006,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_SERVICE_UNASSIGN",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3007,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_TECHNICIAN_UNASSIGN",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3008,
+                "active": true,
+                "erole": "ROLE_SERVICEGROUP_TECHNICIAN_ASSIGN",
+                "parentId": 3000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3100,
+                "active": true,
+                "erole": "ROLE_STATIONCATEGORY_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3101,
+                "active": true,
+                "erole": "ROLE_STATIONCATEGORY_CREATE",
+                "parentId": 3100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3102,
+                "active": true,
+                "erole": "ROLE_STATIONCATEGORY_UPDATE",
+                "parentId": 3100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3103,
+                "active": true,
+                "erole": "ROLE_STATIONCATEGORY_ARCHIVE",
+                "parentId": 3100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3104,
+                "active": true,
+                "erole": "ROLE_STATIONCATEGORY_ACTIVE",
+                "parentId": 3100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3200,
+                "active": true,
+                "erole": "ROLE_STATION_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3201,
+                "active": true,
+                "erole": "ROLE_STATION_CREATE",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3202,
+                "active": true,
+                "erole": "ROLE_STATION_UPDATE",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3203,
+                "active": true,
+                "erole": "ROLE_STATION_ARCHIVE",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3204,
+                "active": true,
+                "erole": "ROLE_STATION_ACTIVE",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3205,
+                "active": true,
+                "erole": "ROLE_STATION_BANKACCOUNT_ASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3206,
+                "active": true,
+                "erole": "ROLE_STATION_BANKACCOUNT_UNASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3207,
+                "active": true,
+                "erole": "ROLE_STATION_BAY_ASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3208,
+                "active": true,
+                "erole": "ROLE_STATION_BAY_UNASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3209,
+                "active": true,
+                "erole": "ROLE_STATION_STORE_ASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3210,
+                "active": true,
+                "erole": "ROLE_STATION_STORE_UNASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3211,
+                "active": true,
+                "erole": "ROLE_STATION_USER_ASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3212,
+                "active": true,
+                "erole": "ROLE_STATION_USER_UNASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3213,
+                "active": true,
+                "erole": "ROLE_STATION_WAREHOUSE_ASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3214,
+                "active": true,
+                "erole": "ROLE_STATION_WAREHOUSE_UNASSIGN",
+                "parentId": 3200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3300,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3301,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_CREATE",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3302,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_UPDATE",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3303,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_ARCHIVE",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3304,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_ACTIVE",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3305,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_STATION_ASSIGN",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3306,
+                "active": true,
+                "erole": "ROLE_STATIONGROUP_STATION_UNASSIGN",
+                "parentId": 3300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3400,
+                "active": true,
+                "erole": "ROLE_STORE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3401,
+                "active": true,
+                "erole": "ROLE_STORE_CREATE",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3402,
+                "active": true,
+                "erole": "ROLE_STORE_UPDATE",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3403,
+                "active": true,
+                "erole": "ROLE_STORE_ARCHIVE",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3404,
+                "active": true,
+                "erole": "ROLE_STORE_ACTIVE",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3405,
+                "active": true,
+                "erole": "ROLE_STORE_ITEM_ASSIGN",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3406,
+                "active": true,
+                "erole": "ROLE_STORE_ITEM_UNASSIGN",
+                "parentId": 3400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3500,
+                "active": true,
+                "erole": "ROLE_TAXPROCEDURE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3501,
+                "active": true,
+                "erole": "ROLE_TAXPROCEDURE_CREATE",
+                "parentId": 3500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3502,
+                "active": true,
+                "erole": "ROLE_TAXPROCEDURE_UPDATE",
+                "parentId": 3500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3503,
+                "active": true,
+                "erole": "ROLE_TAXPROCEDURE_ARCHIVE",
+                "parentId": 3500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3504,
+                "active": true,
+                "erole": "ROLE_TAXPROCEDURE_ACTIVE",
+                "parentId": 3500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3600,
+                "active": true,
+                "erole": "ROLE_UNIT_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3601,
+                "active": true,
+                "erole": "ROLE_UNIT_CREATE",
+                "parentId": 3600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3602,
+                "active": true,
+                "erole": "ROLE_UNIT_UPDATE",
+                "parentId": 3600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3603,
+                "active": true,
+                "erole": "ROLE_UNIT_ARCHIVE",
+                "parentId": 3600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3604,
+                "active": true,
+                "erole": "ROLE_UNIT_ACTIVE",
+                "parentId": 3600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3700,
+                "active": true,
+                "erole": "ROLE_USER_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3701,
+                "active": true,
+                "erole": "ROLE_USER_CREATE",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3702,
+                "active": true,
+                "erole": "ROLE_USER_UPDATE",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3703,
+                "active": true,
+                "erole": "ROLE_USER_ARCHIVE",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3704,
+                "active": true,
+                "erole": "ROLE_USER_ACTIVE",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3705,
+                "active": true,
+                "erole": "ROLE_LOGIN_AS",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3800,
+                "active": true,
+                "erole": "ROLE_USERGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3801,
+                "active": true,
+                "erole": "ROLE_USERGROUP_CREATE",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3802,
+                "active": true,
+                "erole": "ROLE_USERGROUP_UPDATE",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3803,
+                "active": true,
+                "erole": "ROLE_USERGROUP_ARCHIVE",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3804,
+                "active": true,
+                "erole": "ROLE_USERGROUP_ACTIVE",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3805,
+                "active": true,
+                "erole": "ROLE_USERGROUP_USER_ASSIGN",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3806,
+                "active": true,
+                "erole": "ROLE_USERGROUP_USER_UNASSIGN",
+                "parentId": 3800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 3900,
+                "active": true,
+                "erole": "ROLE_VEHICLE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3901,
+                "active": true,
+                "erole": "ROLE_VEHICLE_CREATE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3902,
+                "active": true,
+                "erole": "ROLE_VEHICLE_UPDATE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3903,
+                "active": true,
+                "erole": "ROLE_VEHICLE_ARCHIVE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3904,
+                "active": true,
+                "erole": "ROLE_VEHICLE_ACTIVE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3905,
+                "active": true,
+                "erole": "ROLE_VEHICLE_USER_ASSIGN",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3906,
+                "active": true,
+                "erole": "ROLE_VEHICLE_USER_UNASSIGN",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3907,
+                "active": true,
+                "erole": "ROLE_VEHICLE_IMPORT",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3908,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_VEHICLE_CREATE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3909,
+                "active": true,
+                "erole": "ROLE_CLIENT_VEHICLE_CREATE",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3910,
+                "active": true,
+                "erole": "ROLE_VEHICLE_EXPORT",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 3911,
+                "active": true,
+                "erole": "ROLE_VEHICLE_SERVICE_HISTORY_VIEW",
+                "parentId": 3900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4000,
+                "active": true,
+                "erole": "ROLE_VEHICLETYPE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4001,
+                "active": true,
+                "erole": "ROLE_VEHICLETYPE_CREATE",
+                "parentId": 4000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4002,
+                "active": true,
+                "erole": "ROLE_VEHICLETYPE_UPDATE",
+                "parentId": 4000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4003,
+                "active": true,
+                "erole": "ROLE_VEHICLETYPE_ARCHIVE",
+                "parentId": 4000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4004,
+                "active": true,
+                "erole": "ROLE_VEHICLETYPE_ACTIVE",
+                "parentId": 4000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4100,
+                "active": true,
+                "erole": "ROLE_VENDOR_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4101,
+                "active": true,
+                "erole": "ROLE_VENDOR_CREATE",
+                "parentId": 4100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4102,
+                "active": true,
+                "erole": "ROLE_VENDOR_UPDATE",
+                "parentId": 4100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4103,
+                "active": true,
+                "erole": "ROLE_VENDOR_ARCHIVE",
+                "parentId": 4100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4104,
+                "active": true,
+                "erole": "ROLE_VENDOR_ACTIVE",
+                "parentId": 4100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 4200,
+                "active": true,
+                "erole": "ROLE_WAREHOUSE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4201,
+                "active": true,
+                "erole": "ROLE_WAREHOUSE_CREATE",
+                "parentId": 4200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4202,
+                "active": true,
+                "erole": "ROLE_WAREHOUSE_UPDATE",
+                "parentId": 4200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4203,
+                "active": true,
+                "erole": "ROLE_WAREHOUSE_ARCHIVE",
+                "parentId": 4200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4204,
+                "active": true,
+                "erole": "ROLE_WAREHOUSE_ACTIVE",
+                "parentId": 4200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4300,
+                "active": true,
+                "erole": "ROLE_JOBCARD_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4301,
+                "active": true,
+                "erole": "ROLE_JOBCARD_CREATE",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4302,
+                "active": true,
+                "erole": "ROLE_JOBCARD_UPDATE",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4303,
+                "active": true,
+                "erole": "ROLE_JOBCARD_ARCHIVE",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4304,
+                "active": true,
+                "erole": "ROLE_JOBCARD_ACTIVE",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4305,
+                "active": true,
+                "erole": "ROLE_JOBCARD_PRICE_UPDATE",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4306,
+                "active": true,
+                "erole": "ROLE_JOBCARD_DISCOUNT_UPDATE",
+                "parentId": null,
+                "accessLimit": 100.000000,
+                "linked": true
+            },
+            {
+                "id": 4307,
+                "active": true,
+                "erole": "ROLE_JOBCARD_PDF",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4308,
+                "active": true,
+                "erole": "ROLE_JOBCARD_EXCEL_EXPORT",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4309,
+                "active": true,
+                "erole": "ROLE_JOBCARD_CANCEL",
+                "parentId": 4300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4400,
+                "active": true,
+                "erole": "ROLE_JOBCARDITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4401,
+                "active": true,
+                "erole": "ROLE_JOBCARDITEM_CREATE",
+                "parentId": 4400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4402,
+                "active": true,
+                "erole": "ROLE_JOBCARDITEM_UPDATE",
+                "parentId": 4400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4403,
+                "active": true,
+                "erole": "ROLE_JOBCARDITEM_ARCHIVE",
+                "parentId": 4400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4404,
+                "active": true,
+                "erole": "ROLE_JOBCARDITEM_ACTIVE",
+                "parentId": 4400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4500,
+                "active": true,
+                "erole": "ROLE_JOBCARDPACKAGE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4501,
+                "active": true,
+                "erole": "ROLE_JOBCARDPACKAGE_CREATE",
+                "parentId": 4500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4502,
+                "active": true,
+                "erole": "ROLE_JOBCARDPACKAGE_UPDATE",
+                "parentId": 4500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4503,
+                "active": true,
+                "erole": "ROLE_JOBCARDPACKAGE_ARCHIVE",
+                "parentId": 4500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4504,
+                "active": true,
+                "erole": "ROLE_JOBCARDPACKAGE_ACTIVE",
+                "parentId": 4500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4600,
+                "active": true,
+                "erole": "ROLE_JOBCARDSERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4601,
+                "active": true,
+                "erole": "ROLE_JOBCARDSERVICE_CREATE",
+                "parentId": 4600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4602,
+                "active": true,
+                "erole": "ROLE_JOBCARDSERVICE_UPDATE",
+                "parentId": 4600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4603,
+                "active": true,
+                "erole": "ROLE_JOBCARDSERVICE_ARCHIVE",
+                "parentId": 4600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4604,
+                "active": true,
+                "erole": "ROLE_JOBCARDSERVICE_ACTIVE",
+                "parentId": 4600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4700,
+                "active": true,
+                "erole": "ROLE_WORKORDER_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4701,
+                "active": true,
+                "erole": "ROLE_WORKORDER_CREATE",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4702,
+                "active": true,
+                "erole": "ROLE_WORKORDER_UPDATE",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4703,
+                "active": true,
+                "erole": "ROLE_WORKORDER_ARCHIVE",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4704,
+                "active": true,
+                "erole": "ROLE_WORKORDER_ACTIVE",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4705,
+                "active": true,
+                "erole": "ROLE_WORKORDER_PRICE_UPDATE",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4706,
+                "active": true,
+                "erole": "ROLE_WORKORDER_DISCOUNT_UPDATE",
+                "parentId": null,
+                "accessLimit": 100.000000,
+                "linked": true
+            },
+            {
+                "id": 4707,
+                "active": true,
+                "erole": "ROLE_WORKORDER_EXCEL_EXPORT",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4708,
+                "active": true,
+                "erole": "ROLE_WORKORDER_PDF",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4709,
+                "active": true,
+                "erole": "ROLE_WORKORDER_CANCEL",
+                "parentId": 4700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4800,
+                "active": true,
+                "erole": "ROLE_WORKORDERITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4801,
+                "active": true,
+                "erole": "ROLE_WORKORDERITEM_CREATE",
+                "parentId": 4800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4802,
+                "active": true,
+                "erole": "ROLE_WORKORDERITEM_UPDATE",
+                "parentId": 4800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4803,
+                "active": true,
+                "erole": "ROLE_WORKORDERITEM_ARCHIVE",
+                "parentId": 4800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4804,
+                "active": true,
+                "erole": "ROLE_WORKORDERITEM_ACTIVE",
+                "parentId": 4800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4900,
+                "active": true,
+                "erole": "ROLE_WORKORDERPACKAGE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4901,
+                "active": true,
+                "erole": "ROLE_WORKORDERPACKAGE_CREATE",
+                "parentId": 4900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4902,
+                "active": true,
+                "erole": "ROLE_WORKORDERPACKAGE_UPDATE",
+                "parentId": 4900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4903,
+                "active": true,
+                "erole": "ROLE_WORKORDERPACKAGE_ARCHIVE",
+                "parentId": 4900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 4904,
+                "active": true,
+                "erole": "ROLE_WORKORDERPACKAGE_ACTIVE",
+                "parentId": 4900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5000,
+                "active": true,
+                "erole": "ROLE_WORKORDERSERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5001,
+                "active": true,
+                "erole": "ROLE_WORKORDERSERVICE_CREATE",
+                "parentId": 5000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5002,
+                "active": true,
+                "erole": "ROLE_WORKORDERSERVICE_UPDATE",
+                "parentId": 5000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5003,
+                "active": true,
+                "erole": "ROLE_WORKORDERSERVICE_ARCHIVE",
+                "parentId": 5000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5004,
+                "active": true,
+                "erole": "ROLE_WORKORDERSERVICE_ACTIVE",
+                "parentId": 5000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5100,
+                "active": true,
+                "erole": "ROLE_WORKORDERPAYMENTRECEIPT_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5101,
+                "active": true,
+                "erole": "ROLE_WORKORDERPAYMENTRECEIPT_CREATE",
+                "parentId": 5100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5102,
+                "active": true,
+                "erole": "ROLE_WORKORDERPAYMENTRECEIPT_UPDATE",
+                "parentId": 5100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5103,
+                "active": true,
+                "erole": "ROLE_WORKORDERPAYMENTRECEIPT_ARCHIVE",
+                "parentId": 5100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5104,
+                "active": true,
+                "erole": "ROLE_WORKORDERPAYMENTRECEIPT_ACTIVE",
+                "parentId": 5100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5200,
+                "active": true,
+                "erole": "ROLE_CHANGE_PASSWORD",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5300,
+                "active": true,
+                "erole": "ROLE_FORGET_PASSWORD",
+                "parentId": 3700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5400,
+                "active": true,
+                "erole": "ROLE_CLIENT_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5401,
+                "active": true,
+                "erole": "ROLE_CLIENT_CREATE",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5402,
+                "active": true,
+                "erole": "ROLE_CLIENT_UPDATE",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5403,
+                "active": true,
+                "erole": "ROLE_CLIENT_ARCHIVE",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5404,
+                "active": true,
+                "erole": "ROLE_CLIENT_ACTIVE",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5405,
+                "active": true,
+                "erole": "ROLE_CLIENT_EXPORT",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5406,
+                "active": true,
+                "erole": "ROLE_CLIENT_IMPORT",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5407,
+                "active": true,
+                "erole": "ROLE_CREDIT_BALANCE_VIEW",
+                "parentId": 5400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5500,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5501,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_CREATE",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5502,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_UPDATE",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5503,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_ARCHIVE",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5504,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_ACTIVE",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5505,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_CLIENT_ASSIGN",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5506,
+                "active": true,
+                "erole": "ROLE_CLIENTGROUP_CLIENT_UNASSIGN",
+                "parentId": 5500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5600,
+                "active": true,
+                "erole": "ROLE_VEHICLENOTES_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5601,
+                "active": true,
+                "erole": "ROLE_VEHICLENOTES_CREATE",
+                "parentId": 5600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5602,
+                "active": true,
+                "erole": "ROLE_VEHICLENOTES_UPDATE",
+                "parentId": 5600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5603,
+                "active": true,
+                "erole": "ROLE_VEHICLENOTES_ARCHIVE",
+                "parentId": 5600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5700,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5701,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_CREATE",
+                "parentId": 5700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5702,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_UPDATE",
+                "parentId": 5700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5703,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_ARCHIVE",
+                "parentId": 5700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5704,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_EXPORT",
+                "parentId": 5700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5800,
+                "active": true,
+                "erole": "ROLE_BUSINESSSTATUS_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5801,
+                "active": true,
+                "erole": "ROLE_BUSINESSSTATUS_CREATE",
+                "parentId": 5800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5802,
+                "active": true,
+                "erole": "ROLE_BUSINESSSTATUS_UPDATE",
+                "parentId": 5800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5803,
+                "active": true,
+                "erole": "ROLE_BUSINESSSTATUS_ARCHIVE",
+                "parentId": 5800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 5900,
+                "active": true,
+                "erole": "ROLE_SALES_REPORT",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5901,
+                "active": true,
+                "erole": "ROLE_PAYMENT_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5902,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5903,
+                "active": true,
+                "erole": "ROLE_TRANSACTION_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5904,
+                "active": true,
+                "erole": "ROLE_INVOICE_BREAKDOWN_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5905,
+                "active": true,
+                "erole": "ROLE_SALES_GROSS_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5906,
+                "active": true,
+                "erole": "ROLE_SALES_DETAIL_WITH_PAYMENT_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5907,
+                "active": true,
+                "erole": "ROLE_WIP_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5908,
+                "active": true,
+                "erole": "ROLE_FLEET_SALES_DETAIL_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5909,
+                "active": true,
+                "erole": "ROLE_EXTERNAL_SALES_PROFIT_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5910,
+                "active": true,
+                "erole": "ROLE_EMPLOYEE_SALES_TRACKING_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 5911,
+                "active": true,
+                "erole": "ROLE_PAYMENT_SUMMARY_REPORT",
+                "parentId": 5900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6000,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6001,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_CREATE",
+                "parentId": 6000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6002,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_AUTHORIZE",
+                "parentId": 6000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6003,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_ARCHIVE",
+                "parentId": 6000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6004,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_EXPORT",
+                "parentId": 6000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6100,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6101,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_ITEM_CREATE",
+                "parentId": 6100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6102,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_ITEM_UPDATE",
+                "parentId": 6100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6103,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_ITEM_ARCHIVE",
+                "parentId": 6100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6200,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_SERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6201,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_SERVICE_CREATE",
+                "parentId": 6200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6202,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_SERVICE_UPDATE",
+                "parentId": 6200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6203,
+                "active": true,
+                "erole": "ROLE_PURCHASEORDER_SERVICE_ARCHIVE",
+                "parentId": 6200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6300,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6301,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_CREATE",
+                "parentId": 6300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6302,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_AUTHORIZE",
+                "parentId": 6300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6303,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_ARCHIVE",
+                "parentId": 6300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6304,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_EXPORT",
+                "parentId": 6300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6400,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6401,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_ITEM_CREATE",
+                "parentId": 6400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6402,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_ITEM_UPDATE",
+                "parentId": 6400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6403,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_ITEM_ARCHIVE",
+                "parentId": 6400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6500,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_SERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6501,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_SERVICE_CREATE",
+                "parentId": 6500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6502,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_SERVICE_UPDATE",
+                "parentId": 6500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6503,
+                "active": true,
+                "erole": "ROLE_PURCHASEINVOICE_SERVICE_ARCHIVE",
+                "parentId": 6500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6600,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6601,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_CREATE",
+                "parentId": 6600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6602,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_AUTHORIZE",
+                "parentId": 6600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6603,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_ARCHIVE",
+                "parentId": 6600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6604,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_UPDATE",
+                "parentId": 6600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6605,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_EXPORT",
+                "parentId": 6600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6700,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6701,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_ITEM_CREATE",
+                "parentId": 6700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6702,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_ITEM_UPDATE",
+                "parentId": 6700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6703,
+                "active": true,
+                "erole": "ROLE_STOCKRECEIPT_ITEM_ARCHIVE",
+                "parentId": 6700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6800,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6801,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_CREATE",
+                "parentId": 6800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6802,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_AUTHORIZE",
+                "parentId": 6800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6803,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_ARCHIVE",
+                "parentId": 6800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6900,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6901,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_ITEM_CREATE",
+                "parentId": 6900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6902,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_ITEM_UPDATE",
+                "parentId": 6900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 6903,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_ITEM_ARCHIVE",
+                "parentId": 6900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7000,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_SERVICE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7001,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_SERVICE_CREATE",
+                "parentId": 7000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7002,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_SERVICE_UPDATE",
+                "parentId": 7000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7003,
+                "active": true,
+                "erole": "ROLE_PURCHASE_CREDITDEBITNOTE_SERVICE_ARCHIVE",
+                "parentId": 7000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7300,
+                "active": true,
+                "erole": "ROLE_STOCKTRANSFER_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7301,
+                "active": true,
+                "erole": "ROLE_STOCKTRANSFER_CREATE",
+                "parentId": 7300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7302,
+                "active": true,
+                "erole": "ROLE_STOCKTRANSFER_AUTHORIZE",
+                "parentId": 7300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7400,
+                "active": true,
+                "erole": "ROLE_INVENTORYADJUSTMENT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7401,
+                "active": true,
+                "erole": "ROLE_INVENTORYADJUSTMENT_CREATE",
+                "parentId": 7400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7500,
+                "active": true,
+                "erole": "ROLE_EXPENSE_MANAGER_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7501,
+                "active": true,
+                "erole": "ROLE_EXPENSE_MANAGER_CREATE",
+                "parentId": 7500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7502,
+                "active": true,
+                "erole": "ROLE_EXPENSE_MANAGER_UPDATE",
+                "parentId": 7500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7503,
+                "active": true,
+                "erole": "ROLE_EXPENSE_MANAGER_ARCHIVE",
+                "parentId": 7500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7504,
+                "active": true,
+                "erole": "ROLE_EXPENSE_MANAGER_EXPORT",
+                "parentId": 7500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7600,
+                "active": true,
+                "erole": "ROLE_EXPENSE_TYPE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7601,
+                "active": true,
+                "erole": "ROLE_EXPENSE_TYPE_CREATE",
+                "parentId": 7600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7602,
+                "active": true,
+                "erole": "ROLE_EXPENSE_TYPE_UPDATE",
+                "parentId": 7600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7603,
+                "active": true,
+                "erole": "ROLE_EXPENSE_TYPE_ARCHIVE",
+                "parentId": 7600,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7700,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7701,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_CREATE",
+                "parentId": 7700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7702,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_UPDATE",
+                "parentId": 7700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7703,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_ARCHIVE",
+                "parentId": 7700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7704,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_ACTIVE",
+                "parentId": 7700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7705,
+                "active": true,
+                "erole": "ROLE_INSPECTIONFORM_SECTION_INACTIVE",
+                "parentId": 7700,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 7800,
+                "active": true,
+                "erole": "ROLE_INVENTORY_REPORT",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7801,
+                "active": true,
+                "erole": "ROLE_STOCK_ON_HAND_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7802,
+                "active": true,
+                "erole": "ROLE_STOCK_SALES_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7803,
+                "active": true,
+                "erole": "ROLE_INVENTORY_ADJUSTMENT_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7804,
+                "active": true,
+                "erole": "ROLE_INVENTORY_MOVEMENT_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7805,
+                "active": true,
+                "erole": "ROLE_PURCHASE_ORDER_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7806,
+                "active": true,
+                "erole": "ROLE_PURCHASE_INVOICE_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7807,
+                "active": true,
+                "erole": "ROLE_STOCK_RECEIPT_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7808,
+                "active": true,
+                "erole": "ROLE_INVENTORY_VALUATION_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7809,
+                "active": true,
+                "erole": "ROLE_INVENTORY_AGING_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7810,
+                "active": true,
+                "erole": "ROLE_OUTSTANDING_PAYMENT_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7811,
+                "active": true,
+                "erole": "ROLE_LOW_STOCK_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7812,
+                "active": true,
+                "erole": "ROLE_STOCK_BY_SUPPLIER_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7813,
+                "active": true,
+                "erole": "ROLE_SUPPLIER_COMPARISON_REPORT",
+                "parentId": 7800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7900,
+                "active": true,
+                "erole": "ROLE_CREDITNOTE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7901,
+                "active": true,
+                "erole": "ROLE_CREDITNOTE_CREATE",
+                "parentId": 7900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7902,
+                "active": true,
+                "erole": "ROLE_CREDITNOTE_UPDATE",
+                "parentId": 7900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 7903,
+                "active": true,
+                "erole": "ROLE_CREDITNOTE_ARCHIVE",
+                "parentId": 7900,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8000,
+                "active": true,
+                "erole": "ROLE_MEDIA_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8001,
+                "active": true,
+                "erole": "ROLE_MEDIA_CREATE",
+                "parentId": 8000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8002,
+                "active": true,
+                "erole": "ROLE_MEDIA_DOWNLOAD",
+                "parentId": 8000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8003,
+                "active": true,
+                "erole": "ROLE_MEDIA_ARCHIVE",
+                "parentId": 8000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8100,
+                "active": true,
+                "erole": "ROLE_SERVICE_CHECKLIST_ITEM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8101,
+                "active": true,
+                "erole": "ROLE_SERVICE_CHECKLIST_ITEM_CREATE",
+                "parentId": 8100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8200,
+                "active": true,
+                "erole": "ROLE_SCRAP_ITEM_CREATE",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8201,
+                "active": true,
+                "erole": "ROLE_SCRAP_ITEM_UPDATE",
+                "parentId": 8200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8202,
+                "active": true,
+                "erole": "ROLE_SCRAP_ITEM_DELETE",
+                "parentId": 8200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8300,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8301,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_CREATE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8302,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_UPDATE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8303,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_ARCHIVE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8304,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_ACTIVE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8305,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_EXPORT",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8306,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_APPROVE_ITEM",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8307,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_APPROVE_PACKAGE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8308,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_APPROVE_SERVICE",
+                "parentId": 8300,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8400,
+                "active": true,
+                "erole": "ROLE_STATE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8401,
+                "active": true,
+                "erole": "ROLE_STATE_CREATE",
+                "parentId": 8400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8402,
+                "active": true,
+                "erole": "ROLE_STATE_UPDATE",
+                "parentId": 8400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8403,
+                "active": true,
+                "erole": "ROLE_STATE_ARCHIVE",
+                "parentId": 8400,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8500,
+                "active": true,
+                "erole": "ROLE_CART_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8501,
+                "active": true,
+                "erole": "ROLE_CART_CREATE",
+                "parentId": 8500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8502,
+                "active": true,
+                "erole": "ROLE_CART_UPDATE",
+                "parentId": 8500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8503,
+                "active": true,
+                "erole": "ROLE_CART_ARCHIVE",
+                "parentId": 8500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8504,
+                "active": true,
+                "erole": "ROLE_CART_PRICE_UPDATE",
+                "parentId": 8500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8505,
+                "active": true,
+                "erole": "ROLE_CART_DISCOUNT_UPDATE",
+                "parentId": null,
+                "accessLimit": 100.000000,
+                "linked": true
+            },
+            {
+                "id": 8506,
+                "active": true,
+                "erole": "ROLE_CART_CANCEL",
+                "parentId": 8500,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8600,
+                "active": true,
+                "erole": "ROLE_SALE_PRICE",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8700,
+                "active": true,
+                "erole": "ROLE_REFRESH_TOKEN",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 8800,
+                "active": true,
+                "erole": "ROLE_WARRANTY_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8801,
+                "active": true,
+                "erole": "ROLE_WARRANTY_ARCHIVE",
+                "parentId": 8800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8802,
+                "active": true,
+                "erole": "ROLE_WARRANTY_UPDATE",
+                "parentId": 8800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8803,
+                "active": true,
+                "erole": "ROLE_WARRANTY_CREATE",
+                "parentId": 8800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8900,
+                "active": true,
+                "erole": "ROLE_GATEPASS_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8901,
+                "active": true,
+                "erole": "ROLE_GATEPASS_ARCHIVE",
+                "parentId": 8900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8902,
+                "active": true,
+                "erole": "ROLE_GATEPASS_CREATE",
+                "parentId": 8900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 8903,
+                "active": true,
+                "erole": "ROLE_GATEPASS_UPDATE",
+                "parentId": 8900,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9000,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_DASHBOARD",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9001,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_EXPENSE",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9002,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_EXPENSE_WEEKLY",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9003,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_EXPENSE_COUNTS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9004,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_INVOICE_SUMMARY",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9005,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_NET_SALES",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9006,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_WORK_IN_PROGRESS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9007,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_COMPLETED_JOBS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9008,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_NET_SALES_TECHNICIAN",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9009,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_REVENUE_COST_PROFIT",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9010,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_PAYMENT_DETAILS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9011,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_TOP_SALES_ITEMS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9012,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_TOP_SALES_SERVICES",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9013,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_STATION_EXPENSES_WEEKLY",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9014,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_STATION_EXPENSES_BY_TYPE",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9015,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_TARGET_VS_SALES",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9016,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_AVG_TICKET_PRICE",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9017,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_CANCELLATION_SERVICE",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9018,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_BAY_COUNT",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9019,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_AVG_TIME_PER_JOBCARD",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9020,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_JOBCARD_OPEN_VS_CLOSED",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9021,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_CUSTOMER_STATS",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9022,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_TOP_SERVICE_PERFORMED",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9023,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_SERVICE_BREAKDOWN_VEHICLE",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9024,
+                "active": true,
+                "erole": "ROLE_ANALYTICS_TOP_SERVICE_PERFORMED_FOR_CUSTOMER",
+                "parentId": 9000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9100,
+                "active": true,
+                "erole": "ROLE_TERMANDCONDITION_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9101,
+                "active": true,
+                "erole": "ROLE_TERMANDCONDITION_CREATE",
+                "parentId": 9100,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9200,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_FORM_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9201,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_FORM_CREATE",
+                "parentId": 9200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9202,
+                "active": true,
+                "erole": "ROLE_VEHICLEINSPECTION_FORM_UPDATE",
+                "parentId": 9200,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9300,
+                "active": true,
+                "erole": "ROLE_RETURNCASH_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9301,
+                "active": true,
+                "erole": "ROLE_RETURNCASH_CREATE",
+                "parentId": 9300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9302,
+                "active": true,
+                "erole": "ROLE_RETURNCASH_UPDATE",
+                "parentId": 9300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9600,
+                "active": true,
+                "erole": "ROLE_PURCHASE_PAYMENT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9601,
+                "active": true,
+                "erole": "ROLE_PURCHASE_PAYMENT_CREATE",
+                "parentId": 9600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9602,
+                "active": true,
+                "erole": "ROLE_PURCHASE_PAYMENT_UPDATE",
+                "parentId": 9600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9603,
+                "active": true,
+                "erole": "ROLE_PURCHASE_PAYMENT_ARCHIVE",
+                "parentId": 9600,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9700,
+                "active": true,
+                "erole": "ROLE_PAYMENT_MODE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9701,
+                "active": true,
+                "erole": "ROLE_PAYMENT_MODE_UPDATE",
+                "parentId": 9700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9702,
+                "active": true,
+                "erole": "ROLE_PAYMENT_MODE_CREATE",
+                "parentId": 9700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9703,
+                "active": true,
+                "erole": "ROLE_PAYMENT_MODE_ARCHIVE",
+                "parentId": 9700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9705,
+                "active": true,
+                "erole": "ROLE_PAYMENT_MODE_ACTIVE",
+                "parentId": 9700,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 9800,
+                "active": true,
+                "erole": "ROLE_BOOKING_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9801,
+                "active": true,
+                "erole": "ROLE_BOOKING_UPDATE",
+                "parentId": 9800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9802,
+                "active": true,
+                "erole": "ROLE_BOOKING_CREATE",
+                "parentId": 9800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 9803,
+                "active": true,
+                "erole": "ROLE_BOOKING_ARCHIVE",
+                "parentId": 9800,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10000,
+                "active": true,
+                "erole": "ROLE_MAINTENANCE_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10001,
+                "active": true,
+                "erole": "ROLE_MAINTENANCE_UPDATE",
+                "parentId": 10000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10002,
+                "active": true,
+                "erole": "ROLE_MAINTENANCE_CREATE",
+                "parentId": 10000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10003,
+                "active": true,
+                "erole": "ROLE_MAINTENANCE_ARCHIVE",
+                "parentId": 10000,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10100,
+                "active": true,
+                "erole": "ROLE_KPI_REPORT_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10101,
+                "active": true,
+                "erole": "ROLE_PRODUCTIVITY_REPORT",
+                "parentId": 10100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10102,
+                "active": true,
+                "erole": "ROLE_SERVICE_DURATION_REPORT",
+                "parentId": 10100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10103,
+                "active": true,
+                "erole": "ROLE_TURNAROUND_SLA_REPORT",
+                "parentId": 10100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10104,
+                "active": true,
+                "erole": "ROLE_PMS_COMPLETION_STATUS_REPORT",
+                "parentId": 10100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10105,
+                "active": true,
+                "erole": "ROLE_KPI_SUMMARY_STATION_REPORT",
+                "parentId": 10100,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10200,
+                "active": true,
+                "erole": "ROLE_OTHER_REPORT",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10201,
+                "active": true,
+                "erole": "ROLE_CUSTOMER_AGING_REPORT",
+                "parentId": 10200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10202,
+                "active": true,
+                "erole": "ROLE_VEHICLE_SERVED_DETAIL_REPORT",
+                "parentId": 10200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10203,
+                "active": true,
+                "erole": "ROLE_SERVICE_CANCELLATION_REPORT",
+                "parentId": 10200,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10300,
+                "active": true,
+                "erole": "ROLE_KPI_ANALYTICS_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10301,
+                "active": true,
+                "erole": "ROLE_KPI_ANALYTICS_VEHICLE_TURNAROUND",
+                "parentId": 10300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10302,
+                "active": true,
+                "erole": "ROLE_KPI_ANALYTICS_FLEET_AVAILABILITY",
+                "parentId": 10300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10303,
+                "active": true,
+                "erole": "ROLE_KPI_ANALYTICS_SERVICE_TIME",
+                "parentId": 10300,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10400,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_VIEW",
+                "parentId": null,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10401,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_CREATE",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10402,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_UPDATE",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10403,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_ARCHIVE",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10404,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_ACTIVE",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10405,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_CANCEL",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10406,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_DISCOUNT_UPDATE",
+                "parentId": null,
+                "accessLimit": 100.000000,
+                "linked": true
+            },
+            {
+                "id": 10407,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_PDF",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10408,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_EXCEL_EXPORT",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10409,
+                "active": true,
+                "erole": "ROLE_ESTIMATION_PRICE_UPDATE",
+                "parentId": 10400,
+                "accessLimit": 0.000000,
+                "linked": true
+            },
+            {
+                "id": 10500,
+                "active": true,
+                "erole": "ROLE_CANCELLATION_REASON_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10501,
+                "active": true,
+                "erole": "ROLE_CANCELLATION_REASON_CREATE",
+                "parentId": 10500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10502,
+                "active": true,
+                "erole": "ROLE_CANCELLATION_REASON_UPDATE",
+                "parentId": 10500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10503,
+                "active": true,
+                "erole": "ROLE_CANCELLATION_REASON_ACTIVE",
+                "parentId": 10500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10504,
+                "active": true,
+                "erole": "ROLE_CANCELLATION_REASON_ARCHIVE",
+                "parentId": 10500,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10800,
+                "active": true,
+                "erole": "ROLE_INVOICE_TEMPLATE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10801,
+                "active": true,
+                "erole": "ROLE_INVOICE_TEMPLATE_CREATE",
+                "parentId": 10800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10802,
+                "active": true,
+                "erole": "ROLE_INVOICE_TEMPLATE_UPDATE",
+                "parentId": 10800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10803,
+                "active": true,
+                "erole": "ROLE_INVOICE_TEMPLATE_ARCHIVE",
+                "parentId": 10800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 10804,
+                "active": true,
+                "erole": "ROLE_INVOICE_TEMPLATE_ACTIVE",
+                "parentId": 10800,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 11000,
+                "active": true,
+                "erole": "ROLE_DELIVERY_NOTE_VIEW",
+                "parentId": null,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 11001,
+                "active": true,
+                "erole": "ROLE_DELIVERY_NOTE_CREATE",
+                "parentId": 11000,
+                "accessLimit": 0,
+                "linked": false
+            },
+            {
+                "id": 11002,
+                "active": true,
+                "erole": "ROLE_DELIVERY_NOTE_INVOICE_CREATE",
+                "parentId": 11000,
+                "accessLimit": 0,
+                "linked": false
+            }
+        ]

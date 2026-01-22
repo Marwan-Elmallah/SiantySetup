@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Setup Document with Custom Role Creation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="instructions">
+        <strong>Instructions:</strong> 
+        <ol>
+            <li>Create custom roles based on customer requirements using the "Create New Role" form</li>
+            <li>Paste JSON response in Section 3.1 and click "Parse JSON" to extract ONLY privileges with "linked: true"</li>
+            <li>Select a role by clicking on it, then assign privileges from the available list</li>
+            <li>Use template buttons for quick role creation based on common patterns</li>
+            <li>Assign users to your custom roles in Section 2</li>
+            <li>Export or print the final document with all custom roles and assigned privileges</li>
+        </ol>
+    </div>
+
+
+    
+    <div class="container">
+        <div class="header">
+            <!-- Left Logo -->
+            <img src="https://bayanatss.com/wp-content/uploads/2024/12/bayanat-logo-alpha-1.png" alt="Logo" class="logo left-logo">
+            
+            <!-- Center Title -->
+            <div class="header-content">
+                <div style="font-size: 24px; font-weight: bold; color: #2c5aa0; margin-bottom: 10px;">
+                    Technical Support Documentation
+                </div>
+                <h1 style="margin: 0 0 5px 0;">NEW CUSTOMER SETUP DOCUMENT</h1>
+                <p style="margin: 0; color: #666;">Customer Configuration and Access Control Documentation</p>
+            </div>
+            
+            <!-- Right Logo -->
+            <img src="https://sianty.com/wp-content/uploads/2024/02/sainty-logo-one.png" alt="Logo" class="logo right-logo">
+        </div>
+        
+        <div class="document-info">
+            <div>
+                <div class="form-field">
+                    <label>Document ID:</label>
+                    <input type="text" id="doc-id" value="SETUP-2023-001">
+                </div>
+                <div class="form-field">
+                    <label>Creation Date:</label>
+                    <input type="date" id="creation-date" value="">
+                </div>
+            </div>
+            <div>
+                <div class="form-field">
+                    <label>Version:</label>
+                    <input type="text" id="version" value="1.0">
+                </div>
+                <div class="form-field">
+                    <label>Status:</label>
+                    <select id="status">
+                        <option>Draft</option>
+                        <option>Pending Review</option>
+                        <option>Approved</option>
+                        <option>Archived</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+    <div class="section-title">1. GARAGE INFORMATION</div>
+    
+    <div class="form-grid">
+        <div class="form-field">
+            <label>Workshop Name:</label>
+            <input type="text" id="workshop-name" placeholder="Enter workshop/garage name">
+        </div>
+        
+        <div class="form-field">
+            <label>Location:</label>
+            <input type="text" id="location" placeholder="Enter workshop location (city, area)">
+        </div>
+        
+        <div class="form-field full-width">
+            <label>Company Address:</label>
+            <textarea id="customer-address" placeholder="Enter full company address"></textarea>
+        </div>
+        
+        <div class="form-field">
+            <label>Customer Plan:</label>
+            <select id="customer-plan">
+                <option value="">Select plan</option>
+                <option value="Lite">Lite</option>
+                <option value="Standard">Standard</option>
+                <option value="Reguler">Reguler</option>
+                <option value="Pro">Pro</option>
+                <option value="Enterprise">Enterprise</option>
+                <option value="Custom">Custom</option>
+            </select>
+        </div>
+        
+        <div class="form-field">
+            <label>Workshop Type:</label>
+            <input type="text" id="workshop-type" placeholder="e.g., Automotive, Industrial, Repair">
+        </div>
+        
+        <div class="form-field">
+            <label>Contact Name:</label>
+            <input type="text" id="contact-name" placeholder="Enter primary contact person name">
+        </div>
+        
+        <div class="form-field">
+            <label>Contact Phone:</label>
+            <input type="text" id="contact-phone" placeholder="Enter contact phone number">
+        </div>
+        
+        <div class="form-field">
+            <label>Contact Email:</label>
+            <input type="email" id="contact-email" placeholder="Enter contact email address">
+        </div>
+        
+        <div class="form-field">
+            <label>Number Of Users:</label>
+            <input type="number" id="number-of-users" min="1" max="100" placeholder="Enter number of users">
+        </div>
+        
+        <div class="form-field">
+            <label>Service Start Date:</label>
+            <input type="date" id="service-start-date">
+        </div>
+    </div>
+</div>
+        
+        <div class="section">
+            <div class="section-title">2. USER ACCOUNTS AND ROLES</div>
+            <p>List all users created for this customer along with their assigned custom roles.</p>
+            
+            <div class="table-container">
+                <table id="users-table">
+                    <thead>
+                        <tr>
+                            <th>Full Name</th>
+                            <th>Email Address</th>
+                            <th>Assigned Role</th>
+                            <th>Department</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users-table-body">
+                        <!-- Users will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+            <button class="btn" onclick="addUserRow()">Add User</button>
+            <button class="btn" onclick="syncRolesToUserDropdown()">Sync Available Roles</button>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">3. CUSTOM ROLE CREATION AND PRIVILEGE ASSIGNMENT</div>
+            <p>Create custom roles based on customer requirements and assign specific privileges.</p>
+            
+            <div class="json-section">
+                <h3>3.1 Paste JSON Response Here</h3>
+                <div class="form-field">
+                    <label>Paste the JSON response containing privilege data:</label>
+                    <textarea id="json-input" rows="8" placeholder="Paste JSON data here..."></textarea>
+                </div>
+                <button class="btn btn-parse" onclick="parseJSON()">Parse JSON and Extract Linked Privileges</button>
+                
+                <div id="parse-summary" class="parse-summary" style="display: none;">
+                    <strong>Parse Summary:</strong> <span id="total-privileges">0</span> privileges extracted from <span id="linked-count">0</span> linked objects out of <span id="total-objects">0</span> total objects.
+                </div>
+                
+                <div id="filter-info" class="filter-info" style="display: none;">
+                    <strong>Filter Applied:</strong> Only extracting objects with <code>"linked": true</code>. Objects with <code>"linked": false</code> are ignored.
+                </div>
+            </div>
+            
+            <div class="role-management-container">
+                <div class="role-creation-panel">
+                    <div class="role-creation-form">
+                        <h3>Create New Role</h3>
+                        <div class="form-field">
+                            <label>Role Name:</label>
+                            <input type="text" id="new-role-name" placeholder="e.g., Service Manager, Finance Admin">
+                        </div>
+                        <div class="form-field">
+                            <label>Role Description:</label>
+                            <textarea id="new-role-description" placeholder="Describe the role's purpose and responsibilities" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-create" onclick="createNewRole()">Create New Role</button>
+                        <button class="btn" onclick="clearRoleForm()">Clear Form</button>
+                    </div>
+                    
+                    <div class="template-roles">
+                        <h4>Quick Role Templates</h4>
+                        <p>Create roles based on common patterns:</p>
+                        <div class="role-templates">
+                            <button class="template-btn" onclick="createTemplateRole('admin')">Full Administrator</button>
+                            <button class="template-btn" onclick="createTemplateRole('manager')">Department Manager</button>
+                            <button class="template-btn" onclick="createTemplateRole('technician')">Service Technician</button>
+                            <button class="template-btn" onclick="createTemplateRole('accountant')">Finance Accountant</button>
+                            <button class="template-btn" onclick="createTemplateRole('supervisor')">Team Supervisor</button>
+                            <button class="template-btn" onclick="createTemplateRole('viewer')">Read-Only Viewer</button>
+                            <button class="template-btn" onclick="createTemplateRole('operator')">Data Entry Operator</button>
+                            <button class="template-btn" onclick="createTemplateRole('auditor')">System Auditor</button>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 20px;">Custom Roles Created</h3>
+                    <div id="roles-container">
+                        <!-- Custom roles will be dynamically added here -->
+                    </div>
+                </div>
+                
+                <div class="privilege-assignment-panel">
+                    <h3>Available Privileges (Linked Objects Only)</h3>
+                    <p>Select a role first, then assign privileges from the list below.</p>
+                    
+                    <div id="selected-role-info" style="display: none; background-color: #e3f2fd; padding: 10px 15px; border-radius: 4px; margin-bottom: 15px;">
+                        <strong>Selected Role:</strong> <span id="current-role-name">None</span>
+                        <span id="current-role-description" style="display: block; font-size: 12px; color: #666; margin-top: 3px;"></span>
+                    </div>
+                    
+                    <div class="bulk-assign-section">
+                        <strong>Quick Assignment Options for Selected Role:</strong>
+                        <div class="role-buttons">
+                            <button class="btn btn-success" onclick="assignAllPrivilegesToRole()">Assign All Linked</button>
+                            <button class="btn" onclick="assignViewOnlyPrivileges()">View Only</button>
+                            <button class="btn" onclick="assignCreateUpdatePrivileges()">Create/Update Only</button>
+                            <button class="btn" onclick="assignNoDeletePrivileges()">Exclude Delete/Archive</button>
+                            <button class="btn btn-danger" onclick="clearRolePrivileges()">Clear Role</button>
+                        </div>
+                    </div>
+                    
+                    <div id="available-privileges" class="available-privileges">
+                        <div class="empty-state">
+                            <i>🔒</i>
+                            <p>Privileges will appear here after parsing JSON data.</p>
+                            <p>Select a role to start assigning privileges.</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 15px;">
+                        <button class="btn btn-create" onclick="assignSelectedPrivileges()">Assign Selected to Role</button>
+                        <button class="btn" onclick="selectAllPrivileges()">Select All</button>
+                        <button class="btn" onclick="deselectAllPrivileges()">Deselect All</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">4. NORMAL WORKFLOW</div>
+            <p>Describe the standard workflow and processes for this customer setup.</p>
+            <div class="form-field">
+                <label>Workflow Description:</label>
+                <textarea id="workflow-description" placeholder="Describe the normal workflow for this customer setup..." rows="6">1. User login with provided credentials
+                    2. Access dashboard with assigned modules
+                    3. Perform daily tasks according to role permissions
+                    4. Submit requests/approvals as needed
+                    5. Generate reports based on access level
+                    6. Logout after completing tasks
+                </textarea>
+            </div>
+            <div class="form-field">
+                <label>Special Instructions or Notes:</label>
+                <textarea id="special-notes" placeholder="Enter any special instructions or notes..." rows="4"></textarea>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">5. APPROVAL AND SIGNATURES</div>
+            
+            <div class="signature-section">
+                <div class="signature-box">
+                    <h3>Engineer/Support Personnel</h3>
+                    <div class="form-field">
+                        <label>Name:</label>
+                        <input type="text" id="engineer-name" placeholder="Enter engineer name">
+                    </div>
+                    <div class="form-field">
+                        <label>Title:</label>
+                        <input type="text" id="engineer-title" placeholder="Enter engineer title">
+                    </div>
+                    <div class="form-field">
+                        <label>Date of Setup:</label>
+                        <input type="date" id="setup-date">
+                    </div>
+                    <div class="signature-line">
+                        Signature
+                    </div>
+                </div>
+                
+                <div class="signature-box">
+                    <h3>Customer Approval</h3>
+                    <div class="form-field">
+                        <label>Name:</label>
+                        <input type="text" id="approver-name" placeholder="Enter customer approver name">
+                    </div>
+                    <div class="form-field">
+                        <label>Title:</label>
+                        <input type="text" id="approver-title" placeholder="Enter approver title">
+                    </div>
+                    <div class="form-field">
+                        <label>Date of Approval:</label>
+                        <input type="date" id="approval-date">
+                    </div>
+                    <div class="signature-line">
+                        Signature
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <button class="btn" onclick="printDocument()">Print Document</button>
+            <button class="btn btn-export" onclick="exportToWord()">Export to Word</button>
+            <button class="btn btn-html" onclick="saveAsHTML()">Save as HTML (Customer View)</button>
+            <button class="btn" onclick="saveAsDraft()">Save as Draft</button>
+            <button class="btn" onclick="clearForm()">Clear Form</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
