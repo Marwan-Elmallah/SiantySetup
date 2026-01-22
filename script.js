@@ -12,23 +12,23 @@ const roleTemplates = {
 };
 
 // Set today's date as default for creation date
-document.addEventListener('DOMContentLoaded', function() {
-    const today = new Date().toISOString().split('T')[0];
-    document.getElementById('creation-date').value = today;
-    document.getElementById('setup-date').value = today;
+// document.addEventListener('DOMContentLoaded', function() {
+//     const today = new Date().toISOString().split('T')[0];
+//     document.getElementById('creation-date').value = today;
+//     document.getElementById('setup-date').value = today;
     
-    // Set a default customer name for demo
-    document.getElementById('customer-name').value = "Global Tech Solutions Inc.";
+//     // Set a default customer name for demo
+//     document.getElementById('customer-name').value = "Global Tech Solutions Inc.";
     
-    // Initialize with at least one user row
-    addUserRow();
+//     // Initialize with at least one user row
+//     addUserRow();
     
-    // Load sample JSON data for demonstration
-    loadSampleJSON();
+//     // Load sample JSON data for demonstration
+//     loadSampleJSON();
     
-    // Create a couple of default roles for demo
-    createDemoRoles();
-});
+//     // Create a couple of default roles for demo
+//     createDemoRoles();
+// });
 
 function loadSampleJSON() {
     const sampleJSON = [
@@ -976,13 +976,12 @@ function saveAsHTML() {
         const inputs = row.querySelectorAll('input, select');
         if (inputs.length >= 5) {
             const name = inputs[0].value || 'Not specified';
-            const username = inputs[1].value || 'Not specified';
-            const email = inputs[2].value || 'Not specified';
-            const role = inputs[3].value || 'Not assigned';
-            const department = inputs[4].value || 'Not specified';
+            const email = inputs[1].value || 'Not specified';
+            const role = inputs[2].value || 'Not assigned';
+            const department = inputs[3].value || 'Not specified';
             
-            if (name !== 'Not specified' || username !== 'Not specified') {
-                users.push({ name, username, email, role, department });
+            if (name !== 'Not specified') {
+                users.push({ name, email, role, department });
             }
         }
     });
@@ -1491,7 +1490,7 @@ function generateCustomerHTML(data) {
             
             <!-- Right side logo -->
             <div class="logo-container right-logo">
-                <img src="https://bayanatss.com/wp-content/uploads/2024/12/bayanat-logo-alpha-1.png" alt="Bayanat Smart Systems" class="logo">
+                <img src="https://sianty.com/wp-content/uploads/2024/02/sainty-logo-one.png" alt="Sianty" class="logo">
             </div>
         </div>
         
@@ -1558,7 +1557,6 @@ function generateCustomerHTML(data) {
                 <div class="info-group">
                     <div class="info-label">Number of Users:</div>
                     <div class="info-value">
-                        ${data.numberOfUsers || '0'}
                         <span class="user-count-badge">${getUserCountText(data)}</span>
                     </div>
                 </div>
